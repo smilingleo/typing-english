@@ -1,0 +1,41 @@
+[package]
+name = "typing-english"
+version = "0.1.0"
+authors = ["Leo Liu <leo.wei.liu@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+
+[dependencies]
+# For rendering in the terminal
+# Temporarily use fork while waiting for clone in Text
+tui = { git = "https://github.com/DarrienG/tui-rs.git" }
+termion = "1.5"
+unicode-width = "0.1.5"
+
+# For storing lang pack
+directories = "1.0"
+
+# For downloading lang pack
+reqwest = "0.9.17"
+
+# For deflating lang pack
+flate2 = "1.0"
+tar = "0.4.26"
+
+# For picking random files
+rand = "0.6.5"
+
+# Command line optoins
+clap = "2.33.0"
+
+# for Anki Deck
+sqlite = "0.25.0"
+regex = "1"
+
+# strip html tags
+dissolve = "0.2.2"
