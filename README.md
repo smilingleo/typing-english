@@ -1,14 +1,16 @@
 # Typing English -- 打字背单词
 
 在很久很久以前，当我们刚刚开始接触计算机的时候，最先开始练习的就是打字。记得当时有一个很小但很经典的软件"TT打字", 以游戏的方式练习打字。玩着玩着，就练成一双<ruby>快手<rt>kuai shou</rt></ruby>。
-![TT](asserts/tt.jpeg)
+
+<img src="asserts/tt.jpeg" alt="TT" width="400" />
 
 而英语作为第二语言，日常也需要慢慢积累词汇量。在漫漫背单词之路上，[Anki](https://apps.ankiweb.net/)绝对是最佳记忆辅助软件。但是Anki记忆的时候基本只是视觉记忆，做为键盘侠，最终还是需要把单词敲出来。结合TT的灵感，就有了本软件。
 
 ## 简介
 
 Typing English就是在cli下通过打字来记忆英语单词的小软件。 内置了一个[柯林斯词汇卡](https://ankiweb.net/shared/info/1882930552)，对应文件为`asserts/collection.anki2`。
-![Typing English](asserts/screenshot.png)
+
+<img src="asserts/screenshot.png" alt="Typing English Screenshot" width="400"/>
 
 缺省模式为随机模式，就是随机从词典中选取单词，每个单词重复5次，然后附上该单词的英英解释。
 
@@ -19,6 +21,8 @@ Typing English就是在cli下通过打字来记忆英语单词的小软件。 �
 每次打完一个单词，`Ctrl+N`继续下一个。
 
 你可以一边背，一边看自己的打字WPM，值越高说明你对这个单词越熟练。
+
+**一个小技巧**: 你可以在电脑上背Anki的时候，左半屏显示Anki，右半运行本软件。在背的过程中将不熟悉的单词添加到`--words`模式的列表中，背完之后用打字来加强一下肌肉记忆，效果加倍！
 
 ## 运行
 
